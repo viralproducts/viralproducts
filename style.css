@@ -1,0 +1,57 @@
+.container
+{
+    margin-top: 5px;
+    background: rgba(235, 219, 247, 0.788);
+    border-radius: 3px;
+}
+.navbar 
+{
+    background: rgba(19, 211, 236, 0.37);
+}
+.newarrival
+{
+    background: green;
+    width: 50px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.col-md-7 h2
+{
+    color: #555;
+
+}
+.warning {
+    display: none;
+    color: red;
+}
+.starts
+{
+    height: 15px;
+}
+.alert
+{
+    margin: 20px;
+}
+.price
+{
+    color: #fe980f;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+input[readonly] 
+{
+    border: 1px solid #ccc;
+    font-weight: bold;
+    height: 33px;
+    text-align: center;
+    width: 30px;
+}
+
+.pm-button
+{
+    margin-top: 10px;
+}
