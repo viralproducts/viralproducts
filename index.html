@@ -73,7 +73,16 @@
                     });
                 });
             </script>
-            <div class='pm-button'><a href='https://www.payumoney.com/paybypayumoney/#/7193552DCEF6539A27F4E2E15C2409AB'><img src='https://www.payumoney.com/media/images/payby_payumoney/new_buttons/21.png' /></a></div> 
+<button onclick="initiateUPIPayment()">Pay with UPI</button>
+
+    <script>
+        function initiateUPIPayment() {
+            var amount = "10.00"; // Specify the amount here
+            var upiID = "7827396170@paytm"; // Replace with your UPI ID
+            var url = "upi://pay?pa=" + upiID + "&pn=MerchantName&mc=1234&tid=CUSTTRX123&tr=123456789&tn=PaymentDescription&am=" + amount + "&cu=INR";
+            window.location.href = url;
+        }
+    </script>
         </div>
     </div>
 
