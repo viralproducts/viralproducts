@@ -77,8 +77,8 @@
 
     <script>
         function initiateUPIPayment() {
-            var amount = "10.00"; // Specify the amount here
-            var upiID = "7827396170@paytm"; // Replace with your UPI ID
+            var amount = "100.00"; // Specify the amount here
+            var upiID = "productcheckout@ibl"; // Replace with your UPI ID
             var url = "upi://pay?pa=" + upiID + "&pn=MerchantName&mc=1234&tid=CUSTTRX123&tr=123456789&tn=PaymentDescription&am=" + amount + "&cu=INR";
             window.location.href = url;
         }
